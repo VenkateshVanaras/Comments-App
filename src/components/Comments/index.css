@@ -1,0 +1,98 @@
+/* Write your CSS here */
+
+.app-container {
+  padding-left: 60px;
+  padding-top: 30px;
+  min-height: 100vh;
+  background-color: #fff;
+}
+.input-image-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .input-image-container {
+    flex-direction: row;
+  }
+}
+
+.inputs-container {
+  order: 1;
+}
+@media screen and (min-width: 768px) {
+  .inputs-container {
+    order: 0;
+  }
+}
+.comments-image {
+  height: 170px;
+  margin-left: 5px;
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .comments-image {
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+  }
+}
+
+.input-name {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid #dee0e3;
+  padding: 10px;
+  outline: none;
+}
+.input-comment {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  height: 120px;
+  width: 300px;
+  border: 2px solid #dee0e3;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 35px;
+  width: 154px;
+  font-size: medium;
+  font-family: 'Roboto';
+  border: 0;
+}
+.horizontal-line {
+  width: 80%;
+  height: 1px;
+  font-weight: bolder;
+  margin-left: 0;
+  color: #475569;
+  margin-top: 20px;
+}
+.comments-count {
+  display: flex;
+  font-size: medium;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.comments-length {
+  background-color: #0b69ff;
+  padding: 1px;
+  padding-top: 3px;
+  padding-left: 8px;
+  border-radius: 2px;
+  height: 25px;
+  width: 25px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.un-order-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
